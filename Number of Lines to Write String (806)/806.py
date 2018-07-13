@@ -1,5 +1,5 @@
-#
-#
+# Runtime: 40 ms
+# Beats 51.5% of Python submissions
 
 class Solution:
     def numberOfLines(self, widths, S):
