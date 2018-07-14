@@ -6,7 +6,7 @@ class Solution(object):
         """
         result = 0
         for i in nums:
-            # xoring each number will live you with the only non-duplicate
+            # xoring each number will leave you with the only non-duplicate
             result ^= i
         return result
 
