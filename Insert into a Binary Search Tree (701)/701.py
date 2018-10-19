@@ -36,4 +36,28 @@ class Solution:
                     return root
                 
         return root
+
+# Or, 4 ms slower recursive solution:
+
+# def insertIntoBST(self, root, val):
+#     """
+#     :type root: TreeNode
+#     :type val: int
+#     :rtype: TreeNode
+#     """
+#     if not root:
+#         return TreeNode(val)
+#     else:
+#         if root.val > val:
+#             if not root.left:
+#                 root.left = TreeNode(val)
+#             else:
+#                 self.insertIntoBST(root.left, val)
+#         else:
+#             if not root.right:
+#                 root.right = TreeNode(val)
+#             else:
+#                 self.insertIntoBST(root.right, val)
+                
+#     return root
         
