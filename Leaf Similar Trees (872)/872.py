@@ -25,4 +25,3 @@ class Solution:
             self.dfs(root.right, lst)
             
         return lst
-       34% 
